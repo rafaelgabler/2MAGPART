@@ -1,0 +1,60 @@
+    **********************************************************
+    *                                                        *
+    *      DEUX PARTICLES: ARQUIVO DE DADOS DA SIMULACAO     *
+    *                                                        *
+    *      os valores numericos sao dados em unidades        *
+    *                    adimensionais                       *
+    *                                                        *
+    **********************************************************
+
+- VARIAVEIS LOGICAS
+
+ PARTICULA COM INERCIA (TRUE)...........: TRUE
+ RESOLVE EQUACAO DO TORQUE (TRUE).......: FALSE
+ MOVIMENTO BROWNIANO (TRUE).............: FALSE
+ FORCAS MAGNETICAS (TRUE)...............: FALSE
+ REALIZA ANALISE ESTATISTICA (TRUE).....: TRUE
+ DIPOLO INICIAL FIXO (TRUE).............: FALSE
+ POSICAO INICIAL FIXA (TRUE)............: FALSE
+ CAMPO EXTERNO APLICADO (TRUE)..........: FALSE
+ DETERMINA MAGNETIZACAO NO TEMPO (TRUE).: FALSE
+ DETERMINA DIAGRAMA DE REVERSIBILIDADE..: TRUE
+ GRAVA POSICAO E VEL EM ARQUIVO (TRUE)..: FALSE
+
+- PARAMETROS ADIMENSIONAIS 
+
+ NUMERO DE STOKES.......................: 1.0000E-01
+ RAZAO DE RAIOS DAS ESFERAS (BETA)......: 5.0000E-01
+ RAZAO DE DENSIDADES (LAMBDA)...........: 0.8000E+00
+ RAZAO DE DENSIDADE REDUZIDA (GAMA).....: 1.0000E+00
+ NUMERO DE PECLET.......................: 1.0000E+01
+ NUMERO DE STOKES ROTACIONAL............: 1.0000E-01
+ NUMERO DE PECLET ROTACIONAL............: 1.0000E+01
+ NUMERO DE STOKES MAGNETICO.............: 1.0000E+01
+ NUMERO DE STOKES MAGNETICO ROT.........: 1.0000E+01
+ PARAMETRO DE CAMPO EXTERNO ALFA........: 1.0000E+01
+
+- POSICAO INICIAL DAS ESFERAS 
+
+ X(1,1).................................: 1.1000E+01
+ X(1,2).................................: 1.1000E+01
+ X(1,3).................................: 3.0000E+01
+ X(2,1).................................: 1.0000E+01
+ X(2,2).................................: 1.0000E+01
+ X(2,3).................................: 1.0000E+01
+
+- MOMENTO DE DIPOLO INICIAL DAS ESFERAS 
+
+ Di(1,1).................................: 0.0000E+00
+ Di(1,2).................................: -1.0000E+00
+ Di(1,3).................................: 0.0000E+00
+ Di(2,1).................................: 0.0000E+00
+ Di(2,2).................................: 1.0000E+00
+ Di(2,3).................................: 0.0000E+00
+
+- DADOS NUMERICOS
+
+ TEMPO DE SIMULACAO.....................: 5.0000E+01
+ PASSO PARA ARMAZENAMENTO DE RESULTADO..: 00001
+ NUMERO DE REALIZACOES..................: 00025
+ QUADRANTE PARA O DIAGRAMA..............: 00001	
